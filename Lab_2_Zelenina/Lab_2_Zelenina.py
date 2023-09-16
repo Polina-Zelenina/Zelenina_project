@@ -15,7 +15,7 @@
 #print("I'm student")
 
 #Завдання 4
-# print(1 * " " + '"I\'m" \n ""learning"" \n """Python"""')
+# print('"I\'m"\n""learning""\n"""Python"""')
 
 #Завдання 5
 #print(0o500) """
