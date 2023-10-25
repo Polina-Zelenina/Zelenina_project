@@ -1,4 +1,4 @@
-# ex1
+# Завдання 1
 """ from random import randint as r_int
 
 list_to_tuple = tuple([r_int(1, 100) for _ in range(10)])
@@ -9,12 +9,12 @@ list_to_lower_numbers = [list_to_tuple[i] for i in range(len(list_to_tuple)) if 
 
 print(list_to_lower_numbers) """
 
-# ex2
+# Завдання 2
 """ tuple_of_strings = tuple([input() for _ in range(3)])
 
 print(', '.join(tuple_of_strings)) """
 
-# ex3
+# Завдання 3
 """ dict_of_books = {
     'Гаррі Поттер': {
         'Автор': 'Дж. К. Роулінг',
@@ -54,7 +54,7 @@ for i in dict_of_books:
 if not isFlag:
     print("Не змогли знайти Вашу книгу") """
 
-# ex4
+# Завдання 4
 """ students_list = [
     ['Jace', 197, 84, 'Kt-81'],
     ['Olgerd', 174, 55, 'Pga-99'],
@@ -71,7 +71,7 @@ for i in dict_values:
         print(f"Height: {dict_values[i][0]}, Weight: {dict_values[i][1]}, Group: {dict_values[i][2]}")
         break """
 
-# ex5
+# Завдання 5
 def add_new_contact(list_contacts, name, number):
     list_contacts.append([name, number])
     return list_contacts
